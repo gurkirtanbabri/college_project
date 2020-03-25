@@ -1,0 +1,45 @@
+body{
+	
+}
+
+#main{
+	margin-top:20px;
+	padding:20px;
+}
+.table{
+	margin-top:10px;
+	text-align:center;
+}
+.bar{
+	background-color:var(--dark);
+height:60px;
+display:flex;
+justify-content:space-around;
+}
+.bar a,#o1,#o2,#o3{
+cursor: pointer;
+
+	color:white;
+	text-decoration:none;
+	text-transform:capitalize;
+		
+		
+		margin:auto 0px;
+		padding:12px 40px;
+border-radius:22px}
+.brand{
+	background-color:grey;
+	color:black;
+}
+.btn-primary,.btn-red{
+	border:none;
+	height:40px;
+	width:60%;
+}
+.btn-red{
+	background-color:#FD0C00;
+	color:white;
+}
+.Delivered{
+	width:100%
+}

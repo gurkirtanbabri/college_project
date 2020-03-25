@@ -1,0 +1,28 @@
+@font-face{
+    font-family:multiline;
+    src:url(fonts/Monoton-RXOM.ttf);
+    font-style:normal;
+    font-weight:700;
+    font-variant:
+}
+@font-face{
+    font-family:cursivef;
+    src:url(fonts/DancingScript-Bold.ttf);
+    font-style:normal;
+    
+    font-variant:normal;
+}
+@font-face{
+    font-family:bhai;
+    src:url(fonts/BalooBhai-Regular.ttf);
+    font-style:normal;
+    
+    font-variant:normal;
+}
+@font-face{
+    font-family:pop;
+    src:url(fonts/Poppins-Regular.ttf);
+    font-style:normal;
+    
+    font-variant:normal;
+}

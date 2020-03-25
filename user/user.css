@@ -1,0 +1,44 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+#main{
+	display:flex;
+	align-item:center;
+	justify-content:space-between;
+padding:0px 2rem;
+text-transform:capitalize;
+color:white;
+background-color:black;
+height: 4rem;
+}
+#greet h2{
+	margin:0px;
+	padding:0px;
+	font-family: pop;
+height: 4rem;
+}
+#greet {
+	padding: 15px;
+}
+#action{margin: 0px;
+	
+	width:50%;
+	display:flex;
+	align-item:center;
+	justify-content:space-evenly;
+	height: 4rem;
+	
+}
+#action a{
+padding: 17px;
+	text-decoration:none;
+font-size: 1.3rem;
+	color:white;
+	
+	font-family: arial;
+}
+#logout{
+
+	background-color: purple;
+}

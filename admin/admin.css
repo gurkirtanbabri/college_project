@@ -1,0 +1,679 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: pop;
+	text-transform:capitalize;
+}
+button{
+	cursor: pointer;
+}
+#top{
+	background-color: black;
+	position:fixed;
+	top:0px;
+
+	width: 100%;
+	color:white;
+	display: flex;
+	justify-content: space-between;
+	z-index: 3;
+
+}
+#logo{
+	display: block;
+	width: 50%;
+	margin:0px;
+	
+padding: 2vh;
+	
+}
+#logo-name{
+font-family: cursivef;
+    color: white;
+    font-family: cursivef;
+    color: white;
+    background: orange;
+   border-radius: 15px;
+  display: inline;
+    text-transform: capitalize;
+  font-size:5vh;
+  padding: 0.7vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  margin:5vh;
+  font-weight: 5vh;
+  margin-left:9vh;
+    
+    text-align: left;
+
+}
+#logout{
+
+display:flex;
+justify-content: center;
+
+width:100%;
+
+}
+#logout a{
+	text-decoration:none;
+	color:white;
+	margin:auto 10px;
+		background-color: #8E44AD;
+
+	padding:13.5px;
+	margin-left:35px;
+}
+#logout_btn{
+	border:none;
+	margin-top:1vh;
+	height:80%;
+	width: 10vw;
+	background-color: #8E44AD;
+	
+	color:white;
+	font-family: pop;
+	text-transform: capitalize;
+
+	font-size: 2.8vh;
+	margin-right: -28vw;
+	margin-left:35px;
+	
+
+}
+#logout_btn:hover,#logout a:hover{
+	background-color: orange;
+}
+#admin-name:hover{
+color:orange;
+}
+#admin-name{
+	font-size: 2.8vh;
+	font-family: pop;
+	text-transform: capitalize;
+
+	float: right;
+
+}#menu{
+	width: 20%;
+	position: fixed;
+	display: inline;
+	background-color: black;
+	left: 0px;
+	height: 100%;
+	color:white;
+	margin:0rem;
+	margin-top: 3.7rem;
+	box-shadow:0px 0.1rem 0.3rem 0px black;
+	
+	
+	/*border-top:0.5vh solid #8E44AD;*/
+}
+#item-1{
+	
+	padding:3%;
+	margin-top: 3vh;
+
+
+}
+#list{
+	margin: 0px;
+	text-align: center;
+	padding:0px;
+}
+.items{
+	text-transform: capitalize;
+	text-decoration: none;
+	list-style: none;
+	padding:3%;
+	font-size: 3vh;
+	width: 94%;
+margin-bottom: 2%;
+
+	font-family: pop;
+
+}
+#menuheading{
+	
+	padding: 0px
+
+	font-family:pop;
+	text-align: center;
+
+
+
+}
+#mdiv p{
+	display: none;
+font-size: 6vh;
+	height: 10vh;
+	width: 100%;
+}
+.items:hover{
+	background-color:#8E44AD;
+	height: 10%;
+}
+
+
+                                  /*main*/
+#main{
+background-color:#FDFEFE;
+	height:100vh;
+	width:80%;
+	position:absolute;
+	display: flex;
+	justify-content: center;
+	right:0;
+}
+
+                               /*catagories*/
+
+
+ .catagories{
+ 	border: solid green;
+ 	height: auto;
+ 	position:absolute;
+ 	top:7rem;
+
+ 	width:50rem ;
+ 	display:flex;
+ 	flex-direction: center;
+ 	align-items: center;
+ 	justify-content: center;
+ 	
+ }
+
+
+
+                                                  /*cat-item*/
+.cat_items{
+	
+	margin: 0px;
+	padding: 0px;
+	display:flex;
+	justify-content:center;
+	background-color:aliceblue;
+
+}
+.cat_items:nth-child(2n+0){
+	background-color: silver;
+}
+.cat_count{
+	display: inline;
+
+
+
+}
+.cat_name{
+display: inline-block;
+
+
+width:10rem;
+}
+.item-info{
+	height: 4rem;
+display:flex;
+	
+	width: 25rem;
+	font-size: 1.7rem;
+	align-items:center;
+margin-left:-7rem;
+justify-content:space-evenly;
+}
+.cat_btn{
+	display: inline-block;
+	height:3rem;
+	width:7rem;
+	font-size:1rem;
+	background-color:#3498db;
+	border:none;
+	box-shadow:0px 0.1rem 0.3rem 0px grey;
+	color:white;
+}
+.cat_btn:hover{
+	background-color:#8E44AD;
+}
+.delete{
+	background-color:red;
+}
+.item_btn{
+	height: 4rem;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+	width:30rem;
+	margin-right:-10rem;
+
+
+}
+
+
+#cats{
+	width: 50rem;
+	margin-top: 5rem;
+	background-color: #ffffff;
+	padding: 2rem;
+	box-shadow: 0px 2rem 5rem 0px rgba(0,0,0,0.49);
+}
+#cat_head{
+	font-size:1.7rem;
+	display: flex;
+	align-items: center;
+	height: 5rem;
+	background-color:black;
+	box-shadow:0px 0.1rem 0.3rem 0px grey;
+	color: white;
+	margin-bottom: 2rem;
+
+
+}
+#cat_h1{margin-left:2rem;
+
+}
+#cat_h2{
+	margin-left:4.3rem;
+}
+#cat_h3{
+	margin-left:10.5rem;
+}
+#add_cat{
+	margin-top:2rem;
+	height:3rem;
+	width:10rem;
+	font-size:1rem;
+	background-color:green;
+	border:none;
+	box-shadow:0px 0.1rem 0.3rem 0px grey;
+	color:white;
+	text-transform:capitalize;
+}
+#add_cat:hover{
+	background-color: #8E44AD;
+}
+#add_cat_div{
+	background:white;
+	position: fixed;
+	top:30%;
+	left:45%;
+	height:20rem;
+	width:20rem;
+	text-align:center;
+box-shadow:0px 0.1rem 0.3rem 0px grey;
+
+}
+#x,#x-cat{
+margin-left:80%;
+cursor:pointer;
+}
+#x,#x-cat:hover{
+color:red;
+}
+#add_cat_input,#edit_cat_input{
+	height:3rem;
+	width:15rem;
+	border:none;
+	cursor:pointer;
+	border-bottom:2px solid purple;
+	font-size:1.5rem;
+	color:black;
+
+}
+#add_cat_input,#edit_cat_input::placeholder{
+	font-size:1rem;
+	text-transform:capitalize;
+	text-align:center;
+
+}
+#add_cat_input,#edit_cat_input:focus{color: white;
+	outline: none;
+	background:none;
+
+}
+#add_cat_btn ,#edit_cat_btn{
+
+	height:3rem;
+	width:15rem;
+	color:white;
+	background-color:#3498db;
+	border:none;
+	margin-top:2rem;
+	font-size: 1.3rem;
+	text-transform:capitalize;
+
+}
+#add_cat_btn:hover{
+	background-color: purple;
+}
+ .edit_cat_div{
+ background-color: red;
+
+	background:white;
+	position: fixed;
+	top:30%;
+	left:45%;
+	height:20rem;
+	width:20rem;
+	text-align:center;
+box-shadow:0px 0.1rem 0.3rem 0px grey;
+
+}
+/*add items*/
+ #add_item_main_div{
+ 	  background-image: url("../image/add_item_background.jpg"); 
+ 	  background-repeat: no-repeat;
+ 	   
+ 	   background-size: cover;
+
+ 		width: 50rem;
+	margin-top: 3rem;
+
+	padding: 2rem;
+	box-shadow: 0px 2rem 5rem 0px rgba(0,0,0,0.49);
+ 	margin-top:-0.8rem;
+ 	height: 150%;
+ 	border-radius: 2%
+
+ }
+ #add_item_main_div h1{
+ 	margin-top:4rem;
+ 	margin-left:43%;
+ 	color:white;
+ 	text-transform:capitalize;
+ 	font-family:pop;
+ }
+ #add_item_div{
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ #image_upload_div{
+ 	margin-top:4em;
+ }
+#image_upload{
+	height: 30%;
+	width:30%;
+	border-radius: 50%;
+	display: block;
+	margin:auto;
+	
+}
+ #add_item_main_div input{
+ 	cursor: pointer;
+ 	height: 3em;
+ 	width: 50%;
+ 	margin-top:1em;
+ 	border-radius:10em;
+ 	border:2px solid white;
+ 	transition:width 1s ;
+font-size:1.2em;
+text-align: center;
+ }
+  #add_item_main_div input:hover{
+width:80%;
+  }
+    #add_item_main_div input::placeholder{
+    	text-align:center;
+    	
+    	font-size:1.2em;
+    }
+    #add_item_main_div input:focus{
+    	text-align: center;
+    	background-color: purple;
+    	color: white;
+    	font-size:1.2em;
+    	outline:none;
+    }
+ select{
+ 	 	cursor: pointer;
+ 	height: 3em;
+ 	transition:width 1s ;
+ 	width: 50%;
+margin-top:1em;
+font-size:1.2em;
+border-radius: 10em;
+text-align:center;
+
+ }
+ option{
+ 	cursor: pointer;
+ 	height: 3em;
+ 	
+margin-top:0.5em;
+font-size:1.2em;
+border-radius: 10em;
+text-align:center;
+
+ }
+ select:hover{
+width: 80%;
+ }
+ #upload_file{
+ 	display:none;
+ }
+#add_item_submit{
+ 		cursor: pointer;
+ 	height: 3em;
+ 	width: 50%;
+ 	margin-top:1em;
+ 	border-radius:10em;
+ 	border:2px solid white;
+ 	transition:width 0.7s ;
+ 	transition:background-color 1s ;
+ 	background-color:#3498db;
+font-size:1.2em;
+text-align: center;
+ }
+ #add_item_submit:hover{
+ 	width:80%;
+ 	background-color:purple;
+ }
+
+/**/
+
+#update_main_div{
+	margin-top:5rem;
+	
+
+}
+#update_main_div2{
+	margin-top:5rem;
+	width: 60rem;
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem 15rem;
+    grid-column-gap: 20px;
+    margin-left:0vw;
+justify-content:center;
+
+grid-row-gap:30px}
+
+#update_main_div h1{
+
+text-align:center;
+	font-family:cursive;
+	font-size:4em;
+	margin-bottom:-50px;
+
+}
+.item_image{
+		height:200px;
+		width:100%;
+
+
+}
+.ing{
+	font-family:sans-serif;
+	text-align:center;
+
+}
+.discount{
+	font-size:0.8rem;
+	margin-top:0px;
+	margin-left:64%;
+	font-family:cursive;
+	color:green;
+}
+.item_name{
+	margin-top:0px;
+	display:inline-block;
+	width:60%;
+	font-family:bhai;
+	font-size:2.8vh;
+	margin-left:20px;
+}
+.price{
+	display:inline-block;
+	width:30%;
+margin-left:65%;
+margin-top:-8%;
+font-family:pop;
+font-weight:900;
+font-size:3.5vh;
+
+}
+.update_items{
+	display:flex;
+	flex-direction:column;
+	
+	
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+	border:1px dashed purple;
+
+}
+.update_items p{
+	margin-bottom:0px;
+}
+.update_items button{
+	width:100%;
+	height:6vh;
+	text-transform:capitalize;
+background-color:red;
+font-weight:400;
+font-family:pop;
+color: white;
+
+
+}
+.update_items button:hover{
+	background-color:purple;
+	color:white;
+}
+.update_items button:nth-child(odd):hover{
+	background-color:purple;
+}
+.update_items button:nth-child(odd){
+	background-color:#3498db;
+	color:black;
+}
+.type_logo{
+	height:30px;
+	width:30px;
+	position:relative;
+	background-color:white;
+	top:-11.6rem;
+left:87%;
+margin-top:-40px;
+}
+#eitem_div{
+
+	
+	background-color: black;
+	position: fixed;
+	top:10vh;
+	left: :100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+	padding: 4%;
+	z-index: 10;
+	border:2px dashed black;
+	opacity:0.85;
+	border:2px dashed white;
+
+	width: 25%;
+}
+#eitem_div h3{
+color:white;
+font-family:aria;
+font-size:2rem
+}
+#eitem_div input{
+	width: 20vw;
+height: 5vh;
+margin-top:15px;
+
+}
+#eitem_div select{
+	border-radius: 0px;
+	width: 20vw;
+	height:5vh
+
+}
+
+#eitem_div select:hover{
+	width: 20vw;
+}
+#eimg{
+	height:200px;
+	width:200px;
+	border-radius:50%;
+
+}
+#eitem_div button{
+	height:5vh;
+	width:10vw;
+	margin-top:6px;
+	background-color:#3498db;
+	outline:none;
+}
+#eitem_div button:hover{
+	background-color:purple;
+	color:white;
+}
+/*transition*/
+.trandiv{
+
+	margin-top:5rem;
+	width:60rem;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+.trandiv  h1{
+
+}
+
+.trandiv input{
+	height:3rem;
+	width:25vw;
+	margin-top:2rem;
+	border:2px solid #3498db;
+border-radius:25px;
+text-align:center;
+}
+.trandiv input::placeholder{
+	text-align:center;
+	text-transform:capitalize;
+	color:black;
+
+
+}
+.trandiv input:focus{
+	text-align:center;
+	color:black;
+	outline:none;
+}
+.trandiv button{
+		height:3rem;
+	width:15vw;
+	margin-top:1rem;
+	border:2px solid ;
+	color:white;
+	text-transform:capitalize;
+	background-color:#3498db;
+	border-radius:25px;
+
+}

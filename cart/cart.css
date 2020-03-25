@@ -1,0 +1,164 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+}
+html{
+	max-height: 100vh;
+	min-width: 100vw;
+}
+.hvr-grow{
+	cursor: pointer;
+}
+body{
+	background-color:silver;
+}
+.bar{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+color: white;
+font-size:1.7rem;
+
+	background-color: black;
+	padding: 20px;
+}
+.bar div{
+	display: flex;
+	
+}
+.bar img{
+	height:48px;
+	width: 48px;
+	background-color: white;
+
+
+}
+#count{
+	display: inline-block;;
+	background-color:red;
+	color:white;
+	padding:2px;
+	padding:0.2rem;
+	height:2rem;
+	width:1.1rem;
+	text-align:center;
+	border-radius:6px;
+	margin:0.3rem;
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin-left:4rem;
+
+}
+th,td{
+	
+	text-align: center;
+	text-transform:capitalize;
+
+}
+
+th{
+	height:5rem;
+	background-color:black;
+	color:white;
+	font-size:1.7rem;
+	font-family:serif;
+
+
+}
+tr:nth-child(2n+0){
+	background-color:white;
+}
+tr{
+		height:2rem;
+	font-size:1.7rem;
+	background-color:steelblue;
+
+}
+table{
+	
+	width: 90%;
+margin-left:5%;
+margin-top:2%
+	
+}
+.counter_btn_plus,.counter_btn_minus{
+	border:none;
+	outline:none;
+	font-size:1.4rem;
+		padding-right:5px;
+	padding-left:5px;
+	
+}
+
+.quantity_input{
+	height:1.8rem;
+	width:3rem;
+	text-align:center;
+	font-size:1.2rem;
+	background-color:white;
+	border:none;
+	color:black;
+
+}
+.quantity_input:nth-child(even){
+background-color:transparent;	
+}
+.counter_btn_minus{
+		padding-right:7px;
+	padding-left:7px;
+	
+}
+.remove_cart_item{
+	border:none;
+	outline:none;
+	background-color:red;
+	color:white;
+	padding:8px;
+	margin:5px;
+font-size:1.2rem;
+text-transform:capitalize;
+}
+.grandprice{
+	box-sizing:border-box;
+
+	display:inline-flex;
+	justify-content:space-between;
+	width:90%;
+	margin:5%;
+	margin-top:2%;
+	padding:10px;
+	color:white;
+	background-color:black;
+	padding-left:80px;
+	padding-right:80px;
+}
+.grandprice p{
+	font-size:1.8rem;
+
+}
+#checkout{
+padding:10px;
+font-size:1rem;
+border:none;
+margin-left:50px;
+
+}
+select{
+	height:2.3rem;
+	font-size:1rem;
+
+
+}
+.empty_cart{
+	background-color:white;
+height:100vh;
+padding:10rem;
+
+	text-align:center;
+	font-size:3.5rem;
+}

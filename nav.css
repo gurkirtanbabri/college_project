@@ -1,0 +1,56 @@
+#navbar{
+    font-family: bhai;
+    color: white;
+    display: flex;
+    padding: 0px;
+    position: absolute;
+    top:12vh;
+}
+#logo{
+    font-family: cursivef;
+    color: white;
+    font-size: 40px;
+background: orange;
+    border-radius: 15px;
+    display:inline-block;
+    width: 20vw;
+    margin-left: 7vw;
+    text-align: center;
+}
+#logo p{background: orange;
+    border-radius: 25px;
+    display: inline;
+    font-family: cursivef;
+ 
+    font-size: 45px;
+}
+#nav-links{
+   display: flex;
+    justify-content: space-evenly;
+    height:vh;
+    
+   
+    height: 100%;
+    margin: 0px;
+    
+    width:70vw;
+   
+    padding: 0px;
+}  ul{
+    list-style: none;
+ 
+}
+#nav-links a{
+     
+    text-decoration: none;
+   color: white;
+    padding: 10px;
+  border-radius: 4px;
+    margin-top: 2px;
+    text-transform: capitalize;
+    font-size: 20px;
+    
+}
+#nav-links a:hover{
+  color:orange;
+}
